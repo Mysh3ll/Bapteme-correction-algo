@@ -1,7 +1,5 @@
 # Challenge : Parcours du combattant Algo
 
-## Objectif
-
 Voici un nouveau parcours en 4 étapes !
 
 ## Instructions
