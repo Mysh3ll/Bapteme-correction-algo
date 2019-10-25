@@ -25,11 +25,16 @@ else {
  * Par exemple index.html => html
  */
 function getExtension(str) {
+  /*
+     Hey, tu déchires ! Je suis impresionné.
+     Franchement c'est simple et efficace.
+     Tips => éviter d'attribuer des noms de varaibles identiques à tes fonctions.
+   */
   var separator = '.';
   var getExtension = str.split(separator);
   var extension = getExtension.slice(-1)[0];
-  
+
   if (getExtension.length === 1) return false;
-  
+
   return extension;
 }

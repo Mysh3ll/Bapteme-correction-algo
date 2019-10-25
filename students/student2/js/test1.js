@@ -23,5 +23,5 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
-  return int * 2;
+  return int * 2; // Au top ! Yeaaah !!!
 }

@@ -19,5 +19,8 @@ else {
  * Retourner "true" si c'est pair, "false" si c'est impair
  */
 function isEven(int) {
+  /* Allez, prarce que j'ai le sentiment que tu as trouvé ça easy:
+      => tu peux encore simplifier ton code en enlevement les parenthèses (mais juste pour le fun).
+   */
   return (int % 2 === 0);
 }

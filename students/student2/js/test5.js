@@ -30,19 +30,25 @@ function flatten(arr) {
       i--;
     }
   }
-  
+
   return arr;
-} 
+}
 
 function sum(arr) {
+  /* Très bon travail dans l'ensemble, car celui ci il était pas simple du tout !
+     Comme d'habitude il y a toujours plusieur s solution à un problème, cependant
+     je pense que tu t'es un peu compliqué la vie, je m'explique:
+     - pas obligé de mettre à plat ton tableau (même si ça fonctionne), tu contrôle si la variable est de type 'object'
+       et tu rappelles ta fonction `sum()` avec cette variable. C'est ce que l'on appelle la "Récursivité".
+   */
   var total = 0;
   var arr = flatten(arr);
-  
+
   for (var i = 0; i < arr.length; i++) {
     if (typeof arr[i] === 'number') {
       total += arr[i];
     }
   }
-  
+
   return total;
 }
