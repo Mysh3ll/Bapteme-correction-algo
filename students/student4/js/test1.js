@@ -23,9 +23,9 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
-    var int = int * 2;
+    var int = int * 2; // Bravo! Tu peux améliorer ton code en retournant directement le resultat => `return int * 2;`
      console.log(int);
-    // console.log(typeof int);
+    // console.log(typeof int); // Bonne idée de logger le type de variable reçu en paramètre
     return int;
 }
- console.log(doubleInt());
+ console.log(doubleInt()); // J'ai pas compris pourquoi tu log ça. Pas grave, on verra ça ensemble ;)

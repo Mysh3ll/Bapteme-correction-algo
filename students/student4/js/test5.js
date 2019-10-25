@@ -24,5 +24,16 @@ else {
  * Retourner la somme des nombres contenus dans cet array
  */
 function sum(arr) {
+  /* Idem que l'exercice n°4 */
 
+  // Variable qui va venir accumuler les sommes (initialiser à 0)
+
+  // Pour chaque élément du tableau `arr`
+    // Je définis la string de l'élément en cours
+
+    // Si c'est un nombre, on additionne
+
+    // Si c'est un array, on additionne en utilisant sum()
+
+  // On retourne la somme
 }
