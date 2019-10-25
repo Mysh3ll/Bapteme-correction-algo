@@ -23,5 +23,5 @@ else {
  * Le doubler, et le retourner
  */
 function doubleInt(int) {
-return int*2;
+  return int*2; // Perfect ! Tu as tout compris. J'ai juste réindenté ton code pour une meilleure lecture.
 }
