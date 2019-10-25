@@ -3,12 +3,11 @@
  */
 var container = document.getElementById('container');
 if (!isEven(1) && isEven(2) && !isEven(3) && isEven(35468432)) {
-  container.textContent = 'Yeaaah';
-  container.className = 'success';
-}
-else {
-  container.textContent = 'Nope';
-  container.className = 'error';
+    container.textContent = 'Yeaaah';
+    container.className = 'success';
+} else {
+    container.textContent = 'Nope';
+    container.className = 'error';
 }
 
 
@@ -20,12 +19,15 @@ else {
  */
 function isEven(int) {
 
-   if (int%2 === 0) {
-
-      return true;
-   }
-   else {
-
-      return false;
-   }
+    /* Je me suis permis de réindenter ton code, question de bonnes pratiques. Rien de bien méchant, but be careful my friend ;)
+       Pour le reste très bon raisonnement, bravo !
+       Petit axe d'amélioration pour simplifier ton code:
+        - tu peux directement faire un `return int % 2 === 0;` sans passer par `if/else` puisqu'un test retourne un booléen. Donc soit `true` ou
+        `false` ;)
+     */
+    if (int % 2 === 0) {
+        return true;
+    } else {
+        return false;
+    }
 }

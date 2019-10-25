@@ -1,7 +1,7 @@
 /*
  * Tests
  */
-var container = document.getElementById('container');
+const container = document.getElementById('container');
 if (
   doubleInt(4) === 8
   && doubleInt(-4) === -8
@@ -24,6 +24,6 @@ else {
  */
 function doubleInt(int) {
 
-   var rep = int * 2;
+   var rep = int * 2; // Bravo! Tu peux améliorer ton code en retournant directement le resultat => `return int * 2;`
    return rep;
 }

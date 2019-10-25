@@ -25,6 +25,17 @@ else {
  */
 function getLongestString(arr) {
 
+    /* Good job jeune padawan ! Continue comme ça ...
+       Je dirais juste qu'il manque un petit truc en plus :
+        - il était demandé de retourner la chaîne de caractère la plus longue
+          donc un petit contrôle du type de ta variable s'impose
+           ex:
+           // On vérifie que c'est pas une chaine de caractère
+           if (typeof arr[index] !== 'string') {
+           // Si je veux passer à l'itération suivante
+           continue;
+           }
+     */
    var result = arr[0];
 
    if (arr.length === 0) {
