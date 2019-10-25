@@ -27,3 +27,18 @@ Je pense que l'on pourrait intégrer l'ES6 dans les exercices par ex:
           if (arr.length === 0) {
             return false;
           }
+
+### Baptême Helper
++ A la fin du document pdf reçu en pièce jointe il est stipulé: 
+
+    `Alea jecta est`
+    
+    Mais la citation exacte est:
+    
+    `Alea jacta est`
+    
+    Faute d'inattention ou pas vous avez mis un 'e' à la place d'un 'a' :stuck_out_tongue_winking_eye:
+    
+    Je finirai donc par cette citation:
+    
+    `Errare humanum est`
